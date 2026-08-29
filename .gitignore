@@ -6,13 +6,13 @@
 # See: https://github.com/github/gitignore/tree/main/Global
 #
 .utmp/
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
+/CSJADDemo/[Ll]ibrary/
+/CSJADDemo/[Tt]emp/
+/CSJADDemo/[Oo]bj/
+/CSJADDemo/[Bb]uild/
+/CSJADDemo/[Bb]uilds/
+/CSJADDemo/[Ll]ogs/
+/CSJADDemo/[Uu]ser[Ss]ettings/
 *.log
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
@@ -85,22 +85,22 @@ InitTestScene*.unity*
 
 # Addressables default ignores, before user customizations
 /ServerData
-/[Aa]ssets/StreamingAssets/aa*
-/[Aa]ssets/AddressableAssetsData/link.xml*
-/[Aa]ssets/Addressables_Temp*
+/CSJADDemo/[Aa]ssets/StreamingAssets/aa*
+/CSJADDemo/[Aa]ssets/AddressableAssetsData/link.xml*
+/CSJADDemo/[Aa]ssets/Addressables_Temp*
 # By default, Addressables content builds will generate addressables_content_state.bin
 # files in platform-specific subfolders, for example:
 # /Assets/AddressableAssetsData/OSX/addressables_content_state.bin
-/[Aa]ssets/AddressableAssetsData/*/*.bin*
+/CSJADDemo/[Aa]ssets/AddressableAssetsData/*/*.bin*
 
 # Visual Scripting auto-generated files
-/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
-/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
-/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
-/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+/CSJADDemo/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+/CSJADDemo/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+/CSJADDemo/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+/CSJADDemo/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
 
 # Auto-generated scenes by play mode tests
-/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+/CSJADDemo/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
 
 # Auto-generated cache in Assets folder
-/[Aa]ssets/[Ss]ceneDependencyCache*
+/CSJADDemo/[Aa]ssets/[Ss]ceneDependencyCache*

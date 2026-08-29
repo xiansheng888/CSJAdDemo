@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unity Unit Test"
+  short_description: "Write and run Unity Test Framework tests with strong boundary-condition coverage and editor-aware execution strategy."
+  default_prompt: "Create or update Unity tests for this project. Choose EditMode or PlayMode correctly, cover edge cases, and handle the case where UnityEditor is already running."
