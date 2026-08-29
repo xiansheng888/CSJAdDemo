@@ -12,3 +12,16 @@
    1游戏启动初始化时，初始化广告sdk   init，传入appkey   appSecret信息
    2 游戏内逻辑，需要展示广告时，调用load传入代码位id等信息，在load完成回调（还有其他回调）中，可以调用show，展示广告，arrivedReward（奖励下发）回调（还有其他回调）里，处理广告回传的奖励信息，进行奖励的真实下发（复活、道具什么的）。
    3.rewardAd.dispose()，需要在最后调用，清理广告的资源占用。
+
+
+
+一些网址：
+
+ 穿山甲创建应用和代码位
+https://www.csjplatform.com/union/media/union/site        
+ 
+下载csjSDK
+https://www.csjplatform.com/union/media/union/download/pangle-sdk  下载csjSDK
+
+接入文档（视频激励广告）
+https://www.csjplatform.com/union/media/union/download/detail?id=202&docId=28042&locale=zh-CN&osType=    接入文档（视频激励广告）
